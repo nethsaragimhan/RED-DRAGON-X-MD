@@ -19,18 +19,26 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['Your Number']
-global.premium = ['Your Number']
-global.ownernomer = 'Your Number'
-global.ownername = '🐦Star Boy Nexus'
-global.botname = 'Gojo-Satoru'
-global.footer = '©NexusNwInc.'
-global.ig = 'https://github.com/nexusNw'
+global.owner = ['+972522972297']
+global.premium = ['+97252-217-2297']
+global.ownernomer = '+97252-271-2297'
+global.ownername = 'ㅤ꯭𝐒𝐘𝛥𝛭ㅤ꯭𝜥𝛬𝑅𝛵𝛨𝛪𝜥ㅤ꯭𝐒'
+global.botname = '𝑺𝜥𝑺 𝐵𝜣𝑻'
+global.footer = '©ㅤ꯭𝐒𝐘𝛥𝛭ㅤ꯭𝜥𝛬𝑅𝛵𝛨𝛪𝜥ㅤ꯭𝐒.'
+global.ig = 'https://github.com/syam2k6'
 global.region = 'India, South India, Kerala'
-global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
-global.author = '🐦Star Boy Nexus'
+global.sc = 'https://github.com/syam2k6/Gojo-Satoru'
+global.myweb = 'https://youtube.com/channel'
+global.packname = 'sticker by _sks_boss_'
+global.author = '𝑺𝜥𝑺 𝐵𝜣𝑻⁩'
+
+
+
+
+
+
+
+
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
@@ -69,5 +77,5 @@ fs.watchFile(file, () => {
 	fs.unwatchFile(file)
 	console.log(chalk.redBright(`Update'${__filename}'`))
 	delete require.cache[file]
-	require(file)
+	require(file)    //pull by N3XU5-51R
 })
